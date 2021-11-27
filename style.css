@@ -1,0 +1,130 @@
+.logo{
+    width: 130px;
+}
+
+body{
+   font-family:Geneva, sans-serif; 
+   background: linear-gradient(rgba(160, 157, 157, 0.2), rgba(160, 157, 157, 0.2)),url(/images/3075545.jpg) no-repeat;
+   height: 100vh;
+   position: relative;
+}
+
+.nav{
+    background-color: rgba(255, 255, 255, 0.8) !important;
+    box-shadow: 11px -22px 47px 31px;;
+}
+
+.nav-item-button{
+    padding:0px 4px;
+}
+
+.nav-link{
+    font-size: 19px;
+    color:green;
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    color: rgb(2, 78, 2);
+}
+
+.footer-text{
+    font-size: 14px;
+}
+
+.footer{
+    padding:0;
+    background-color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.main-home{
+    position: absolute;
+    top: 30%;
+    left:50%;
+    transform: translateX(-50%);
+}
+.home-main{
+    
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    padding: 26px;
+    border-radius: 30px;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.main-content{
+    width: 550px;;
+}
+
+.main-content-buttons{
+    display: flex;
+}
+
+.home-main-button{
+    flex-grow: 1;
+    border-radius: 30px;
+    border:1px solid white;
+    background-color: darkgreen;
+    color: white;
+    padding:7px 0;
+    font-size: 20px;
+    margin:0px 4px
+}
+
+
+/* Bordered form */
+form {
+    
+    border-radius: 30px;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    margin-bottom: 200px;
+  }
+
+  .title{
+      text-align: center;
+      padding: 15px;
+      font-size: 35px;
+      border-bottom: 3px solid darkgreen;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password], input[type=email], input[type=datetime-local], input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid darkgreen;
+    box-sizing: border-box;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }
+ 
+  .button-submit{
+      margin-top: 15px;
+      width: 100%;
+      padding:10px;
+      font-size: 17px;
+      background: darkgreen;
+      color: white;
+      letter-spacing: 2px;
+      border-radius: 30px;
+      border:none;
+  }
+
+  .button-submit:hover{
+    background-color: rgb(2, 78, 2);
+}
+
+.edit-profile{
+    text-decoration: none;
+    text-align: center;
+}
+
+.edit-profile:hover{
+    color: white;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharing is caring</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- A grey horizontal navbar that becomes vertical on small screens -->
+    <nav class="navbar navbar-expand-sm bg-light nav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/"><img class="logo" src="/images/LogoMakr-0XtCaB.png" alt=""></a>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="/all-rides.html">Car-sharing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/all-buses.html">Buses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/my-offers.html">My rides</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/add-ride.html">Add a ride</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/edit-ride">Edit a ride</a>
+              </li>
+          </ul>
+            <div class="navbar-nav top-buttons">
+                <div class="nav-item-button">
+                    <a class="btn btn-success" href="/profile.html">Profile</a>  
+                  </div>
+                  <div class="nav-item-button">
+                    <a class="btn btn-success" href="/login.html">Logout</a>  
+                  </div>
+                <div class="nav-item-button">
+                  <a class="btn btn-success" href="/login.html">Sign In</a>  
+                </div>
+                <div class="nav-item-button">
+                  <a class="btn btn-success"  href="/register.html">Register</a>  
+                </div>
+                
+            </div>
+        </div> 
+      </nav>
+
+      <main>
+        <div class="main-home">
+          <form action="action_page.php" method="post">
+            <h1 class="title">Add a ride</h1>
+              <div class="container">
+                <label for="from"><b>From</b></label>
+                <input type="text" placeholder="Enter starting point" name="from" required>
+            
+                <label for="to"><b>To</b></label>
+                <input type="text" placeholder="Enter final destination" name="to" required>
+
+                <label for="date"><b>Date</b></label>
+                <input type="datetime-local" name="date" required>
+
+                <label for="seats"><b>Available Seats</b></label>
+                <input type="number" placeholder="Available Seats" name="seats" required>
+
+                <label for="description"><b>Add Description</b></label>
+                <input type="text" placeholder="Add Description" name="description" required>
+            
+                <button class="button-submit" type="submit">Add ride</button>
+            </form>
+        </div>
+          
+    </main>
+
+      <nav class="navbar navbar-expand-sm bg-light fixed-bottom footer">
+        <div class="container-fluid">
+            <p class="navbar-nav nav-item nav-link footer-text">Created by Velimira Nedelcheva</p>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link footer-text" href="/contact.html">Contacts</a>
+          </li>
+          </ul>
+        </div>
+      </nav>
+</body>
+</html>
